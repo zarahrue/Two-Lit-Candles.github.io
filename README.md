@@ -1,3 +1,3 @@
-# Two-Lit-Candles.github.io
+# Free To Stay Home
 
 [Faith Journey Homeschool Essentialist DIY]
