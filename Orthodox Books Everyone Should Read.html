@@ -92,25 +92,25 @@
 					<!-- Footer -->
 						<footer id="footer">
 							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="3"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" /></li>
-									</ul>
-								</form>
+								<!-- DISQUS -->
+									<div id="disqus_thread"></div>
+									<script>
+
+									var disqus_config = function () {
+									this.page.url = document.location.href;
+									this.page.identifier = document.location.href;
+									};
+
+									(function() { // DON'T EDIT BELOW THIS LINE
+									var d = document, s = d.createElement('script');
+									s.src = 'https://https-freetostayhome-com.disqus.com/embed.js';
+									s.setAttribute('data-timestamp', +new Date());
+									(d.head || d.body).appendChild(s);
+									})();
+									</script>
+									<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+								<!-- DISQUS END -->
 							</section>
 							<section class="split contact">
 								<section class="alt">
